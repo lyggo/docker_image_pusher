@@ -9,3 +9,4 @@ node
 jenkins/jenkins
 
 python:3.11-slim
+schemathesis/schemathesis
