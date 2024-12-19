@@ -4,8 +4,130 @@ k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 xhofe/alist:latest
 #支持指定架构
 --platform=linux/arm64 xiaoyaliu/alist
-python
+
+
+# 后端框架与服务
 node
-jenkins/jenkins
+python
 python:3.11-slim
+openjdk:17
+golang:latest
+ruby:3.1
+php:8.2-apache
+mcr.microsoft.com/dotnet/aspnet:6.0
+
+# Web 服务器
+nginx
+httpd
+traefik:v2.10
+caddy:latest
+
+# 数据库与缓存
+mysql:8.0
+postgres:14
+redis:alpine
+mariadb:latest
+mongo:latest
+elasticsearch:8.7
+cassandra:latest
+neo4j:latest
+rabbitmq:latest
+
+# 消息队列与流处理
+kafka:latest
+redis:latest
+nats:latest
+activeMQ:latest
+
+# 前端框架与工具
+node:16
+node:18
+nextjs:latest
+react:latest
+vue:latest
+alpine:latest
+
+# CI/CD 与 DevOps 工具
+jenkins/jenkins:lts
+gitlab/gitlab-ce:latest
+docker:latest
+kaniko:latest
+sonarqube:latest
+circleci/python:latest
+travisci/travis-ci:latest
+
+# 监控与日志
+prometheus:latest
+grafana:latest
+fluentd:latest
+logstash:latest
+elk:7.10
+jaegertracing/all-in-one:latest
+zipkin/zipkin:latest
+sentry:latest
+
+# 容器编排与服务网格
+k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
+consul:latest
+istio/proxyv2:latest
+traefik:v2.10
+
+# 测试与自动化
 schemathesis/schemathesis
+selenium/standalone-chrome
+cypress/included:latest
+postman/newman:latest
+locustio/locust:latest
+
+# 开发工具与环境
+maven:latest
+gradle:latest
+alpine:latest
+ubuntu:latest
+centos:latest
+debian:latest
+golang:latest
+
+# 安全与漏洞扫描
+aquasec/trivy:latest
+docker/docker-bench-security:latest
+synk/snyk-cli:latest
+clair:latest
+
+# 云服务与存储
+aws-cli:latest
+google/cloud-sdk:latest
+azure-cli:latest
+minio/minio:latest
+rclone/rclone:latest
+
+# 文件存储与管理
+xhofe/alist:latest
+owncloud/server:latest
+nextcloud:latest
+
+# 机器学习与数据科学
+tensorflow/tensorflow:latest
+pytorch/pytorch:latest
+jupyter/base-notebook:latest
+daskdev/dask:latest
+nvidia/cuda:11.2-base
+
+# 图像处理与视觉
+opencv:latest
+ffmpeg:latest
+opencv/opencv:latest
+tesseractshadow/tesseract4re:latest
+
+# 版本控制与协作工具
+gitlab/gitlab-ce:latest
+gitea/gitea:latest
+bitnami/gitlab:latest
+
+# 其他常见镜像
+busybox:latest
+alpine:latest
+ubuntu:latest
+debian:latest
+centos:latest
+
