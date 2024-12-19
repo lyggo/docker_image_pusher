@@ -7,6 +7,5 @@ xhofe/alist:latest
 python
 node
 jenkins/jenkins
-
 python:3.11-slim
 schemathesis/schemathesis
