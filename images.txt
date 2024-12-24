@@ -16,7 +16,7 @@ httpd
 mysql:8.0
 redis:alpine
 mongo:latest
-elasticsearch:latest
+elasticsearch
 neo4j:latest
 
 
