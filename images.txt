@@ -27,7 +27,7 @@ postgres:14
 redis:alpine
 mariadb:latest
 mongo:latest
-elasticsearch:8.7
+elasticsearch
 cassandra:latest
 neo4j:latest
 rabbitmq:latest
