@@ -1,55 +1,36 @@
-nginx
-#支持私库
-k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
-xhofe/alist:latest
-#支持指定架构
---platform=linux/arm64 xiaoyaliu/alist
-
 # 后端框架与服务
-node
-python
+node:16
+node:18
 python:3.11-slim
 openjdk:17
 golang:latest
 ruby:3.1
 php:8.2-apache
-mcr.microsoft.com/dotnet/aspnet:6.0
+
 
 # Web 服务器
 nginx
 httpd
-traefik:v2.10
-caddy:latest
 
 # 数据库与缓存
 mysql:8.0
-postgres:14
 redis:alpine
-mariadb:latest
 mongo:latest
-elasticsearch
-cassandra:latest
+elasticsearch:latest
 neo4j:latest
-rabbitmq:latest
+
 
 # 消息队列与流处理
 kafka:latest
-redis:latest
-nats:latest
-activeMQ:latest
+rabbitmq:latest
 
 # 前端框架与工具
-node:16
-node:18
 nextjs:latest
 react:latest
 vue:latest
-alpine:latest
 
 # CI/CD 与 DevOps 工具
 jenkins/jenkins:lts
-gitlab/gitlab-ce:latest
-docker:latest
 kaniko:latest
 sonarqube:latest
 circleci/python:latest
@@ -81,9 +62,6 @@ locustio/locust:latest
 # 开发工具与环境
 maven:latest
 gradle:latest
-alpine:latest
-ubuntu:latest
-centos:latest
 debian:latest
 golang:latest
 
@@ -119,14 +97,10 @@ opencv/opencv:latest
 tesseractshadow/tesseract4re:latest
 
 # 版本控制与协作工具
-gitlab/gitlab-ce:latest
 gitea/gitea:latest
-bitnami/gitlab:latest
+
 
 # 其他常见镜像
 busybox:latest
-alpine:latest
-ubuntu:latest
-debian:latest
-centos:latest
+
 
