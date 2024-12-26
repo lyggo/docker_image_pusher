@@ -18,7 +18,6 @@ neo4j:latest
 
 
 # 消息队列与流处理
-kafka:latest
 rabbitmq:latest
 
 # 前端框架与工具
