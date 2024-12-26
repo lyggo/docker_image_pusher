@@ -20,10 +20,6 @@ neo4j:latest
 # 消息队列与流处理
 rabbitmq:latest
 
-# 前端框架与工具
-nextjs:latest
-react:latest
-vue:latest
 
 # CI/CD 与 DevOps 工具
 jenkins/jenkins:lts
