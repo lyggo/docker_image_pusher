@@ -25,62 +25,6 @@ rabbitmq:latest
 jenkins/jenkins:lts
 sonarqube:latest
 
-# 监控与日志
-#prometheus:latest
-#grafana:latest
-#fluentd:latest
-#logstash:latest
-#elk:7.10
-#jaegertracing/all-in-one:latest
-#zipkin/zipkin:latest
-#sentry:latest
-
-# 容器编排与服务网格
-consul:latest
-istio/proxyv2:latest
-traefik:v2.10
-
-# 测试与自动化
-schemathesis/schemathesis
-selenium/standalone-chrome
-cypress/included:latest
-postman/newman:latest
-locustio/locust:latest
-
-# 开发工具与环境
-maven:latest
-gradle:latest
-
-
-# 安全与漏洞扫描
-aquasec/trivy:latest
-docker/docker-bench-security:latest
-synk/snyk-cli:latest
-clair:latest
-
-# 云服务与存储
-aws-cli:latest
-google/cloud-sdk:latest
-azure-cli:latest
-minio/minio:latest
-rclone/rclone:latest
-# 文件存储与管理
-xhofe/alist:latest
-owncloud/server:latest
-nextcloud:latest
-
-# 机器学习与数据科学
-tensorflow/tensorflow:latest
-pytorch/pytorch:latest
-jupyter/base-notebook:latest
-daskdev/dask:latest
-nvidia/cuda:11.2-base
-
-# 图像处理与视觉
-opencv:latest
-ffmpeg:latest
-opencv/opencv:latest
-tesseractshadow/tesseract4re:latest
 
 # 版本控制与协作工具
 gitea/gitea:latest
