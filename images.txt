@@ -1,11 +1,9 @@
 # 后端框架与服务
-node:16
 node:18
 python:3.11-slim
 openjdk:17
 golang:latest
-ruby:3.1
-php:8.2-apache
+
 
 
 # Web 服务器
@@ -30,10 +28,7 @@ vue:latest
 
 # CI/CD 与 DevOps 工具
 jenkins/jenkins:lts
-kaniko:latest
 sonarqube:latest
-circleci/python:latest
-travisci/travis-ci:latest
 
 # 监控与日志
 prometheus:latest
@@ -46,7 +41,6 @@ zipkin/zipkin:latest
 sentry:latest
 
 # 容器编排与服务网格
-k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 consul:latest
 istio/proxyv2:latest
 traefik:v2.10
@@ -61,8 +55,7 @@ locustio/locust:latest
 # 开发工具与环境
 maven:latest
 gradle:latest
-debian:latest
-golang:latest
+
 
 # 安全与漏洞扫描
 aquasec/trivy:latest
@@ -76,7 +69,6 @@ google/cloud-sdk:latest
 azure-cli:latest
 minio/minio:latest
 rclone/rclone:latest
-
 # 文件存储与管理
 xhofe/alist:latest
 owncloud/server:latest
@@ -98,7 +90,5 @@ tesseractshadow/tesseract4re:latest
 # 版本控制与协作工具
 gitea/gitea:latest
 
-# 其他常见镜像
-busybox:latest
 
 
