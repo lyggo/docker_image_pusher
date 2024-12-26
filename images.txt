@@ -26,14 +26,14 @@ jenkins/jenkins:lts
 sonarqube:latest
 
 # 监控与日志
-prometheus:latest
-grafana:latest
-fluentd:latest
-logstash:latest
-elk:7.10
-jaegertracing/all-in-one:latest
-zipkin/zipkin:latest
-sentry:latest
+#prometheus:latest
+#grafana:latest
+#fluentd:latest
+#logstash:latest
+#elk:7.10
+#jaegertracing/all-in-one:latest
+#zipkin/zipkin:latest
+#sentry:latest
 
 # 容器编排与服务网格
 consul:latest
