@@ -19,6 +19,7 @@ neo4j:latest
 
 # 消息队列与流处理
 rabbitmq:latest
+rabbitmq:3.11-management-alpine
 
 
 # CI/CD 与 DevOps 工具
