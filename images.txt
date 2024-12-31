@@ -31,4 +31,15 @@ sonarqube:latest
 gitea/gitea:latest
 
 
+# 监控与日志
+prometheus:latest
+grafana:latest
+fluentd:latest
+logstash:latest
+elk:7.10
+jaegertracing/all-in-one:latest
+zipkin/zipkin:latest
+sentry:latest
+
+
 
