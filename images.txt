@@ -31,5 +31,6 @@ sonarqube:latest
 # 版本控制与协作工具
 gitea/gitea:latest
 
-
+#支持指定架构
+--platform=linux/arm64/v8 xiaoyaliu/alist
 
