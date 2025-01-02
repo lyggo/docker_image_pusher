@@ -1,6 +1,7 @@
 # 后端框架与服务
 node:18
-python:3.11-slim 
+python:3.11-slim  --platform=linux/arm64
+
 openjdk:17
 golang:latest
 
@@ -29,10 +30,6 @@ sonarqube:latest
 
 # 版本控制与协作工具
 gitea/gitea:latest
-
-
-
---platform=linux/arm64
 
 
 
