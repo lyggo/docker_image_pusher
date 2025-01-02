@@ -1,6 +1,6 @@
 # 后端框架与服务
 node:18
-python:3.11-slim  --platform=linux/arm64
+python:3.11-slim
 
 openjdk:17
 golang:latest
